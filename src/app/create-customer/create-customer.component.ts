@@ -12,10 +12,12 @@ import {Router} from '@angular/router';
 
 export class CreateCustomerComponent implements OnInit {
   customer = new Customer;
-  router: Router;
   submitted = false;
-  constructor(private dataService: DataService,
-    private location: Location) {}
+  constructor(
+    private dataService: DataService,
+    private location: Location,
+    private router: Router
+  ) { }
 
   ngOnInit() {
   }

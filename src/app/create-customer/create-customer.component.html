@@ -11,15 +11,6 @@
         required
 				[(ngModel)]="customer.firstName"
         name="firstname">
-      <div *ngIf="firstname.invalid && (firstname.dirty || firstname.touched)"
-          class="alert alert-danger">
-        <div *ngIf="firstname.errors.required">
-          First Name is required.
-        </div>
-        <div *ngIf="name.errors.maxlength">
-          First Name must not be more than 30 characters.
-        </div>
-      </div>
 		</div>
 
 		<div class="form-group">
@@ -32,15 +23,6 @@
         required
 				[(ngModel)]="customer.lastName"
         name="lastname">
-      <div *ngIf="lastname.invalid && (lastname.dirty || lastname.touched)"
-          class="alert alert-danger">
-        <div *ngIf="lastname.errors.required">
-          Last Name is required.
-        </div>
-        <div *ngIf="lastname.errors.maxlength">
-          Last Name must not be more than 30 characters.
-        </div>
-      </div>
 		</div>
 
     <div class="form-group">
@@ -52,15 +34,6 @@
         name="organizationId"
         required
         maxlength="10">
-      <div *ngIf="organizationId.invalid && (organizationId.dirty || organizationId.touched)"
-          class="alert alert-danger">
-        <div *ngIf="firstname.errors.required">
-          Organization ID is required.
-        </div>
-        <div *ngIf="name.errors.maxlength">
-          Organization ID must not be more than 10 characters.
-        </div>
-      </div>
 		</div>
 
 		<div class="form-group">
@@ -73,15 +46,6 @@
         required
 				[(ngModel)]="customer.addressLine1"
         name="addressLine1">
-        <div *ngIf="addressLine1.invalid && (addressLine1.dirty || addressLine1.touched)"
-          class="alert alert-danger">
-        <div *ngIf="addressLine1.errors.required">
-          Address Line 1 is required.
-        </div>
-        <div *ngIf="name.errors.maxlength">
-          Address Line 1 must not be more than 30 characters.
-        </div>
-      </div>
 		</div>
 
     <div class="form-group">
@@ -92,12 +56,6 @@
         id="addressLine2"
 				[(ngModel)]="customer.addressLine2"
         name="addressLine2">
-        <div *ngIf="addressLine2.invalid && (addressLine2.dirty || addressLine2.touched)"
-          class="alert alert-danger">
-        <div *ngIf="addressLine2.errors.maxlength">
-          Address line must not be more than 30 characters.
-        </div>
-      </div>
 		</div>
 
     <div class="form-group">
@@ -110,15 +68,6 @@
         required
 				[(ngModel)]="customer.city"
         name="city">
-      <div *ngIf="city.invalid && (city.dirty || city.touched)"
-          class="alert alert-danger">
-        <div *ngIf="city.errors.required">
-          City is required.
-        </div>
-        <div *ngIf="name.errors.maxlength">
-          City must not be more than 30 characters.
-        </div>
-      </div>
 		</div>
 
 		<div class="form-group">
@@ -130,15 +79,6 @@
         id="state"
 				[(ngModel)]="customer.state"
         name="state">
-      <div *ngIf="state.invalid && (state.dirty || state.touched)"
-          class="alert alert-danger">
-        <div *ngIf="state.errors.required">
-          State is required.
-        </div>
-        <div *ngIf="state.errors.maxlength">
-          State must not be more than 30 characters.
-        </div>
-      </div>
 		</div>
 
 		<div class="form-group">
@@ -152,15 +92,6 @@
 				[(ngModel)]="customer.country"
         name="country"
       >
-      <div *ngIf="country.invalid && (country.dirty || country.touched)"
-          class="alert alert-danger">
-        <div *ngIf="country.errors.required">
-          Country field is required.
-        </div>
-        <div *ngIf="country.errors.maxlength">
-          Country value must not be more than 30 characters.
-        </div>
-      </div>
 		</div>
 
     <div class="form-group">
@@ -172,15 +103,6 @@
 				[(ngModel)]="customer.zipCode"
         name="zipCode"
         maxlength="5">
-      <div *ngIf="zipCode.invalid && (zipCode.dirty || zipCode.touched)"
-          class="alert alert-danger">
-        <div *ngIf="zipCode.errors.required">
-          Zip code is required.
-        </div>
-        <div *ngIf="zipCode.errors.maxlength">
-          Zip code must not be more than 5 characters.
-        </div>
-      </div>
 		</div>
 
 		<div class="btn-group">

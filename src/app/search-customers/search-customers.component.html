@@ -10,14 +10,6 @@
         maxlength="30"
         [(ngModel)]="lastName"
 				name="lastname">
-      <div *ngIf="lastname.invalid && (lastname.dirty || lastname.touched)" class="alert alert-danger">
-        <div *ngIf="lastname.errors.required">
-          Last Name is required.
-        </div>
-        <div *ngIf="lastname.errors.maxlength">
-          Last Name must not be more than 30 characters.
-        </div>
-      </div>
 		</div>
     <button type="submit" class="button-style mat-raised-button">Submit</button>
 	</form>
