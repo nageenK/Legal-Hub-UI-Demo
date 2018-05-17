@@ -1,0 +1,82 @@
+.header {
+  border: none;
+  background: 0 0;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  outline: 0;
+  font: inherit;
+  overflow: hidden;
+  word-wrap: break-word;
+  color: rgba(0,0,0,.54);
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.customer-row {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    align-items: center;
+    min-height: 48px;
+    padding: 25px 24px;
+    border-bottom-color: rgba(0,0,0,.12);
+    vertical-align: unset;
+}
+
+.customer-cell {
+    color: rgba(0,0,0,.87);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.button-style {
+    color: #006990;
+    background-color: #FFFFFF;
+    border: 3px solid #006990;
+    border-radius: 50px 50px;
+}
+
+.mat-raised-button {
+  box-sizing: border-box;
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+  outline: 0;
+  display: inline-block;
+  white-space: nowrap;
+  text-decoration: none;
+  vertical-align: baseline;
+  text-align: center;
+  margin: 0;
+  min-width: 88px;
+  line-height: 36px;
+  padding: 0 16px;
+}
+
+.add-button {
+  text-align: right;
+  margin-right: 250px;
+}
+
+.customer-table {
+  margin-left: 300px;
+  width: 95rem;
+}
+
+.org-id, .org-header, .action-header {
+  text-align: right;
+}
+
+.org-header {
+  padding-right: 0;
+}
+
+.action-header, .action-cell {
+  padding-left: 20px;
+}
+
+td {
+  font-size: 16px;
+}

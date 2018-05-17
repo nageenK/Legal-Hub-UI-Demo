@@ -1,0 +1,32 @@
+.button-style {
+    color: #006990;
+    background-color: #FFFFFF;
+    border: 3px solid #006990;
+}
+
+.mat-raised-button {
+  box-sizing: border-box;
+  position: relative;
+  user-select: none;
+  cursor: pointer;
+  outline: 0;
+  display: inline-block;
+  white-space: nowrap;
+  text-decoration: none;
+  vertical-align: baseline;
+  text-align: center;
+  margin: 0;
+  min-width: 88px;
+  line-height: 36px;
+  padding: 50px;
+  margin-top: 200px;
+}
+
+.btn {
+  font-size: 18px;
+}
+
+.customer-buttom {
+  margin-left: 500px;
+  margin-right: 50px;
+}
